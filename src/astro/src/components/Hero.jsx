@@ -7,10 +7,27 @@ const Hero = () => {
             <div className='container'>
                 <header>
                     <h1>Granola's Projects</h1>
-                    <p>We make winning software teams.</p>
-                    <p>Granola is a software consultancy. We make winning teams using our expertise in leadership, DevOps, Web3, distributed systems, functional programming, and data engineering.</p>
-                    <p>Say hello: <a href="mailto:hello@granola.team">hello@granola.team</a></p>
                 </header>
+                <main>
+                    <div className='grid'>
+                        <a 
+                        href="http://osc-client-deploy.s3-website.ca-central-1.amazonaws.com" 
+                        className='card'>
+                            <h2>Mina On-Chain Signals &rarr;</h2>
+                            <p>Click here for the results from this election.</p>
+                        </a>
+                        <a 
+                        href="" 
+                        className='card'>
+                            <h2>Projects in Development &rarr;</h2>
+                            <p>A few projects are in the works. Coming Soon!</p>
+                        </a>
+                    </div>
+                </main>
+                <br></br><br></br><br></br>
+                <footer>
+                    <p>Say hello: <a href="mailto:hello@granola.team">hello@granola.team</a></p>
+                </footer>
             </div>
         </section>
     )
