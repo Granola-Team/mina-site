@@ -19,7 +19,7 @@ Commands are run from the 'src' directory:
 
 ## Misc
 
-The background image in our hero component was sourced from [Unsplash](https://unsplash.com/photos/YKN_G9L9nMA)
+The background image in our hero component was sourced from [Unsplash](https://unsplash.com/photos/oQ5O2ExIlbw)
 
 ## License
 
