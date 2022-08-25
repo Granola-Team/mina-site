@@ -1,7 +1,6 @@
 # Granola Systems Website
 
-Netlify ___
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe016af5-13e7-4466-9c21-782ac4affab8/deploy-status)](https://app.netlify.com/sites/minagranolateam/deploys)
 This is the source code for Granola's Projects website (https://mina.granola.team).
 
 ## 🧞 Development
