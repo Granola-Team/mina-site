@@ -26,7 +26,7 @@ const Hero = () => {
                 </main>
                 <br></br><br></br><br></br>
                 <footer>
-                    <p>Say hello: <a href="mailto:hello@granola.team">hello@granola.team</a></p>
+                    <p>Say hello: <a text-decoration="none" color="#FFFFFF" href="mailto:hello@granola.team"><font color="#FFFFFF">hello@granola.team</font></a></p>
                 </footer>
             </div>
         </section>
