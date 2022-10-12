@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-body;
+  height: 100%;
+}
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "calt" 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 100%;
+}
+
+@layer utilities {
+  .h-500 {
+    height: 500px;
+  },
+  .h-250 {
+    height: 250px;
+  },
+  .w-400 {
+    width: 400px;
+  },
+  .w-200 {
+    width: 200px;
+  }
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
+    min-height: 150px;
+  }
+
+  .card:hover,
+  .card:focus,
+  .card:active {
+    color: #EDA13A;
+    border-color: #EDA13A;
+  }
+  .card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  
