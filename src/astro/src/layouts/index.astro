@@ -1,23 +1,21 @@
 ---
-import Hero from '../components/Hero'
-import '../styles/global.scss';
+import Nav from '../components/Nav'
+import Front from '../components/Front'
+import Heading from '../components/Heading.astro'
+import Footer from '../components/Footer'
+import '../styles/styles.css';
 
-const {frontmatter} = Astro.props;
+const {title} = Astro.props;
 ---
-<html lang="en">
+<html lang="en" class="w-full h-full">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-    <meta name="author" content="Granola's Project">
-    <meta property="og:title" content="Granola's Projects">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mina.granola.team">
-    <meta property="og:description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-    <title>{frontmatter.title}</title>
+    <Heading title={title} />
   </head>
-<body>
-  <Hero />
-  <slot />
+<body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
+  <Nav />
+  <Front /> 
+  <footer class="relative clear-both h-[15px] -mt-[15px]">
+    <Footer />
+  </footer>  
 </body>
 </html>
