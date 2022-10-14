@@ -15,7 +15,7 @@ const Front = () => {
                         <br></br><br></br>
                         <span className="text-2xl">Come see our source code.</span>
                     </a>
-                    <a href="/" className="card text-3xl text-white hover:text-logoOrange
+                    <a href="https://github.com/Granola-Team/onchain-signalling" className="card text-3xl text-white hover:text-logoOrange
                     focus:text-logoOrange active:text-logoOrange">
                         Mina On-Chain Signals &rarr;
                         <br></br><br></br>
